@@ -1,4 +1,74 @@
+@import url("../fonts/stylesheet.css");
+@import url("../weather/weather-icons/weather-icons.less");
+
 body
 {
-  background-color: peachpuff;
+  background-color: darkcyan;
+  font-family: aller;
+}
+
+#title
+{
+  font-family: snow;
+  font-size: 100px;
+}
+
+.weather-icon
+{
+  //font-size: 33px;
+}
+
+.weather-row
+{
+  font-size: 30px;
+  padding:10px 10px 0px 10px;
+  margin-bottom:10px;
+  background-color: rgba(255,255,255,0.3);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.forecast-row
+{
+  font-size: 16px;
+  padding:10px 10px 10px 10px;
+  margin-bottom:10px;
+  background-color: rgba(255,255,255,0.3);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.details-button
+{
+  margin-top:5px;
+}
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.animate-show {
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+  line-height:20px;
+  opacity:1;
+  padding:10px;
+  font-size: 16px;
+}
+
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove {
+  display:block!important;
+}
+
+.animate-show.ng-hide {
+  line-height:0;
+  opacity:0;
+  padding:0 10px;
+}
+
+.large-weather
+{
+  font-size:70px;
+  margin-bottom: 25px;
 }

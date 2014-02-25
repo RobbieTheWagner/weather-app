@@ -2,8 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2699a151-74e1-41a5-a882-a5d4a42b08bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/less/styles.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/reference/font/WeatherIcons-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/aller_rg-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/aller_rg-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/aller_rg-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/almonte_snow-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/almonte_snow-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/almonte_snow-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/sourcesanspro-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/sourcesanspro-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/sourcesanspro-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/weathericons-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/cheatsheet/font/weathericons-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/reference/font/weathericons-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/weathericons-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/cheatsheet/font/weathericons-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/reference/font/weathericons-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/weathericons-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/cheatsheet/font/weathericons-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/reference/font/weathericons-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/css/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/reference/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/weather-icons/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/aller_rg-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/aller_rg-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/almonte_snow-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/almonte_snow-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/cheatsheet/css/cheatsheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/specimen_files/easytabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/generator_config.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/specimen_files/grid_12-825-55-15.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/weather-icons/icon-classes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/cheatsheet/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/reference/reference.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/sourcesanspro-regular-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/sourcesanspro-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/specimen_files/specimen_stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/reference/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/weather-icons/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/css/weather-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/weather-icons/weather-icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/cheatsheet/css/weather-icons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/css/weather-icons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/fonts/weathericons-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/cheatsheet/font/weathericons-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/weather/reference/font/weathericons-regular-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/app.js" afterPath="$PROJECT_DIR$/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home.html" afterPath="$PROJECT_DIR$/views/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/home.js" afterPath="$PROJECT_DIR$/scripts/controllers/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.js" afterPath="$PROJECT_DIR$/resources.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/css/styles.css" afterPath="$PROJECT_DIR$/styles/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/less/styles.less" afterPath="$PROJECT_DIR$/styles/less/styles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weather-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,25 +82,79 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="42" column="81" selection-start="2114" selection-end="2148" vertical-scroll-proportion="-7.9583335" vertical-offset="439" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="27" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/less/styles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="30" selection-start="37" selection-end="37" vertical-scroll-proportion="0.04601227" vertical-offset="0" max-vertical-offset="652">
+            <state line="39" column="21" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="70" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icon-classes.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/weather/weather-icons/icon-classes.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1995">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/controllers/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+            <state line="81" column="28" selection-start="2775" selection-end="2775" vertical-scroll-proportion="1.8837209" vertical-offset="0" max-vertical-offset="1365">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resources.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="2" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather-icons.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/weather/weather-icons/weather-icons.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/weather/weather-icons/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="48" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1515">
               <folding />
             </state>
           </provider>
@@ -66,14 +173,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/fonts/stylesheet.css" />
+        <option value="$PROJECT_DIR$/styles/weather/weather-icons/variables.less" />
+        <option value="$PROJECT_DIR$/scripts/app.js" />
+        <option value="$PROJECT_DIR$/resources.js" />
         <option value="$PROJECT_DIR$/styles/less/styles.less" />
+        <option value="$PROJECT_DIR$/views/home.html" />
+        <option value="$PROJECT_DIR$/scripts/controllers/home.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="798" />
+    <option name="width" value="720" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -101,7 +215,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,7 +261,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
+              <option name="myItemId" value="weather" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -165,6 +278,14 @@
               <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -177,10 +298,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,8 +347,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-ui-bootstrap-bower" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,6 +377,14 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/styles/fonts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -291,20 +435,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="798" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="720" height="801" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298611" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33472222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -324,23 +468,174 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/home.js">
+    <entry file="file://$PROJECT_DIR$/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="701">
+        <state line="42" column="81" selection-start="2114" selection-end="2148" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="9" column="27" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/less/styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="37" selection-end="37" vertical-scroll-proportion="0.04601227" vertical-offset="0" max-vertical-offset="652">
+        <state line="39" column="21" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="70" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/weather/weather-icons/icon-classes.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="51" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/weather/weather-icons/weather-icons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/weather/weather-icons/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/less/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="30" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/fonts/specimen_files/easytabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/weather/css/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="661" />
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/weather/weather-icons/weather-icons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/weather/weather-icons/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/fonts/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/weather/weather-icons/icon-classes.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="70" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/less/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="21" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="81" selection-start="2114" selection-end="2148" vertical-scroll-proportion="-7.9583335" vertical-offset="439" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="28" selection-start="2775" selection-end="2775" vertical-scroll-proportion="1.8837209" vertical-offset="0" max-vertical-offset="1365">
           <folding />
         </state>
       </provider>

@@ -1,8 +1,66 @@
 <div class="wrapper">
     <div class="container">
-        <div class="row" ng-repeat="day in days" ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
-            <div class="col-md-8 col-md-offset-2">
-                
+        <div class="row text-center">
+            <h1 id="title">Weather App</h1>
+
+            <h1>5 day forecast</h1>
+
+            <form ng-submit="getForecast()">
+                <label for="location">City,State</label>
+                <input ng-model="location" id="location" type="text"/>
+            </form>
+        </div>
+        <!--<accordion>
+            <accordion-group is-open="isopen" ng-repeat="day in days" class="col-sm-8 col-sm-offset-2 weather-row">
+                <accordion-heading>
+                    <div class="col-lg-3">
+                        <p>{{day.day}}</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <span><i class="{{day.icon}}"></i> 70 <i class="wi-degrees weather-icon"></i></span>
+                    </div>
+                    <div class="col-lg-3">
+                        <span><i class="wi-cloud-up weather-icon"></i> {{day.high}} <i class="wi-degrees weather-icon"></i></span>
+                    </div>
+                    <div class="col-lg-3">
+                        <span><i class="wi-cloud-down weather-icon"></i> {{day.low}} <i class="wi-degrees weather-icon"></i></span>
+                    </div>
+                    <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
+                </accordion-heading>
+                This is just some content to illustrate fancy headings.
+            </accordion-group>
+        </accordion>-->
+        <div class="row text-center" ng-repeat="day in days"
+             ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
+            <div class="col-sm-8 col-sm-offset-2 weather-row">
+                <div class="col-lg-3">
+                    <p>{{day.day}}</p>
+                </div>
+                <div class="col-lg-3">
+                    <span><i class="{{day.icon}}"></i> {{day.cond}}</i></span>
+                </div>
+                <div class="col-lg-2">
+                    <span><i class="wi-cloud-up weather-icon"></i> {{day.high}} <i class="wi-degrees weather-icon"></i></span>
+                </div>
+                <div class="col-lg-2">
+                    <span><i class="wi-cloud-down weather-icon"></i> {{day.low}} <i class="wi-degrees weather-icon"></i></span>
+                </div>
+                <div class="col-lg-2">
+                    <button type="button" class="btn btn-default btn-md details-button" ng-click="testShow = !testShow">
+                        Details <i class="fa fa-caret-square-o-down"></i>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row text-center animate-show" ng-show="testShow">
+                <div class="col-sm-8 col-sm-offset-2 forecast-row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>Conditions: {{day.precipitation}}</p>
+                        <br/>
+
+                        <p>Forecast: {{day.forecast}}</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
