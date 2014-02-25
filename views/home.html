@@ -10,28 +10,7 @@
                 <input ng-model="location" id="location" type="text"/>
             </form>
         </div>
-        <!--<accordion>
-            <accordion-group is-open="isopen" ng-repeat="day in days" class="col-sm-8 col-sm-offset-2 weather-row">
-                <accordion-heading>
-                    <div class="col-lg-3">
-                        <p>{{day.day}}</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <span><i class="{{day.icon}}"></i> 70 <i class="wi-degrees weather-icon"></i></span>
-                    </div>
-                    <div class="col-lg-3">
-                        <span><i class="wi-cloud-up weather-icon"></i> {{day.high}} <i class="wi-degrees weather-icon"></i></span>
-                    </div>
-                    <div class="col-lg-3">
-                        <span><i class="wi-cloud-down weather-icon"></i> {{day.low}} <i class="wi-degrees weather-icon"></i></span>
-                    </div>
-                    <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
-                </accordion-heading>
-                This is just some content to illustrate fancy headings.
-            </accordion-group>
-        </accordion>-->
-        <div class="row text-center" ng-repeat="day in days"
-             ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
+        <div class="row text-center weather-day" ng-repeat="day in days">
             <div class="col-sm-8 col-sm-offset-2 weather-row">
                 <div class="col-lg-3">
                     <p>{{day.day}}</p>
