@@ -14,4 +14,7 @@ cd weather-app
 ```bash
 node server.js
 ```
+
+Navigate to `http://localhost:8000/index.html#/`
+
 Enter city,state in the box, press enter, and enjoy the forecasts!
