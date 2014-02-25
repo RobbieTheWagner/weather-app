@@ -5,6 +5,8 @@ This is a weather forecast app I created. You can enter a city and state and get
 
 It uses AngularJS, Angular-UI Bootstrap, Twitter Bootstrap 3, bower, jQuery, Font Awesome, and Weather Icons. It also makes use of ngAnimate.
 
+All weather data is retrieved from openweathermap.org using their API, and is consumed by the application using Angular's $http.get, and parsing the JSON that is returned.
+
 To run the app, you must have node installed on your machine. Then clone the repo to your machine.
 
 Steps to run:
