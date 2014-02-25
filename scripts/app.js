@@ -6,16 +6,3 @@ var app = angular.module('app', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
         });
         $routeProvider.otherwise({ redirectTo: '/' });
     });
-
-/*app.factory('currentUser', ['$http', function ($http) {
-    return {
-        username: function (callback) {
-            $http.get('/currentuser').success(function (response) {
-                callback(response);
-            })
-                .error(function (error) {
-                    alert("Something blew up!");
-                });
-        }
-    };
-}]);*/

@@ -16,22 +16,22 @@
                     <p>{{day.day}}</p>
                 </div>
                 <div class="col-lg-3">
-                    <span><i class="{{day.icon}}"></i> {{day.cond}}</i></span>
+                    <span><i class="{{day.icon}} weather-icon"></i> {{day.cond}}</i></span>
                 </div>
                 <div class="col-lg-2">
-                    <span><i class="wi-cloud-up weather-icon"></i> {{day.high}} <i class="wi-degrees weather-icon"></i></span>
+                    <span><i class="wi-cloud-up weather-icon"></i> {{day.high}} <i class="wi-degrees"></i></span>
                 </div>
                 <div class="col-lg-2">
-                    <span><i class="wi-cloud-down weather-icon"></i> {{day.low}} <i class="wi-degrees weather-icon"></i></span>
+                    <span><i class="wi-cloud-down weather-icon"></i> {{day.low}} <i class="wi-degrees"></i></span>
                 </div>
                 <div class="col-lg-2">
-                    <button type="button" class="btn btn-default btn-md details-button" ng-click="testShow = !testShow">
+                    <button type="button" class="btn btn-default btn-md details-button" ng-click="showForecast = !showForecast">
                         Details <i class="fa fa-caret-square-o-down"></i>
                     </button>
                 </div>
 
             </div>
-            <div class="row text-center animate-show" ng-show="testShow">
+            <div class="row text-center animate-show" ng-show="showForecast">
                 <div class="col-sm-8 col-sm-offset-2 forecast-row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <p>Conditions: {{day.precipitation}}</p>

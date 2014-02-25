@@ -2,9 +2,9 @@ app.controller('HomeController', [ '$scope', '$http', function ($scope, $http) {
 
     $scope.days = null;
 
-    $scope.testShow = false;
+    $scope.showForecast = false;
 
-    $scope.test = function (res) {
+    $scope.validate = function (res) {
         if (res.cod == "200") {
             setDays(res);
         }
@@ -13,13 +13,19 @@ app.controller('HomeController', [ '$scope', '$http', function ($scope, $http) {
         }
     }
 
+    /*
+     Does an http get to grab the JSON weather data from openweathermap.
+     */
     $scope.getForecast = function () {
         var splitString = $scope.location.split(",");
         var city = splitString[0];
         var state = splitString[1];
-        $http.get('http://api.openweathermap.org/data/2.5/forecast/daily?q=' + city + ',' + state + '&units=imperial&cnt=5').success($scope.test);
+        $http.get('http://api.openweathermap.org/data/2.5/forecast/daily?q=' + city + ',' + state + '&units=imperial&cnt=5').success($scope.validate);
     }
 
+    /*
+     Sets the information for each day's forecast.
+     */
     function setDays(forecast) {
         var weekday = new Array(7);
         weekday[0] = "Sunday";
@@ -34,7 +40,6 @@ app.controller('HomeController', [ '$scope', '$http', function ($scope, $http) {
         var list = forecast.list;
 
         for (var i = 0; i < list.length; i++) {
-            console.log(list[i]);
             var d = new Date(list[i].dt * 1000);
             days[i] = {icon: getIcon(list[i].weather[0].icon),
                 day: weekday[d.getDay()],
@@ -53,6 +58,9 @@ app.controller('HomeController', [ '$scope', '$http', function ($scope, $http) {
         $scope.days = days;
     }
 
+    /*
+     Determines the weather icon to use based on the icon code provided.
+     */
     function getIcon(icon) {
         if (icon == "01d") {
             return "wi-day-sunny";
@@ -79,6 +87,33 @@ app.controller('HomeController', [ '$scope', '$http', function ($scope, $http) {
             return "wi-snow";
         }
         else if (icon == "50d") {
+            return "wi-fog";
+        }
+        else if (icon == "01n") {
+            return "wi-night-clear"
+        }
+        else if (icon == "02n") {
+            return "wi-night-cloudy"
+        }
+        else if (icon == "03n") {
+            return "wi-cloud"
+        }
+        else if (icon == "04n") {
+            return "wi-cloudy";
+        }
+        else if (icon == "09n") {
+            return "wi-rain";
+        }
+        else if (icon == "10n") {
+            return "wi-night-rain";
+        }
+        else if (icon == "11n") {
+            return "wi-thunderstorm";
+        }
+        else if (icon == "13n") {
+            return "wi-snow";
+        }
+        else if (icon == "50n") {
             return "wi-fog";
         }
     }

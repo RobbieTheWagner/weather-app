@@ -334,6 +334,9 @@ body {
   font-family: snow;
   font-size: 100px;
 }
+.weather-icon {
+  color: #f0f9ff;
+}
 .weather-row {
   font-size: 30px;
   padding: 10px 10px 0px 10px;
