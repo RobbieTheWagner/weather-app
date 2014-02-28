@@ -10,6 +10,11 @@
                 <input ng-model="location" id="location" type="text"/>
             </form>
         </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <alert ng-show="showAlert" type="alert.type" close="showAlert = !showAlert">{{alert.msg}}</alert>
+            </div>
+        </div>
         <div class="row text-center weather-day" ng-repeat="day in days">
             <div class="col-sm-8 col-sm-offset-2 weather-row">
                 <div class="col-lg-3">

@@ -2,14 +2,26 @@ app.controller('HomeController', [ '$scope', '$http', function ($scope, $http) {
 
     $scope.days = null;
 
+    //Boolean to show the forecast or not.
     $scope.showForecast = false;
 
+    //Boolean to show the alert for invalid input.
+    $scope.showAlert = false;
+
+    //Alert info
+    $scope.alert = {type: 'danger', msg: 'Your input must be in the form of city,state.'};
+
+    /*
+     Alerts if the city or state are invalid.
+     */
     $scope.validate = function (res) {
         if (res.cod == "200") {
+            $scope.showAlert = false;
             setDays(res);
         }
         else {
-            alert("invalid");
+            $scope.alert.msg = 'You entered an invalid city or state. Please try again.';
+            $scope.showAlert = true;
         }
     }
 
@@ -18,9 +30,15 @@ app.controller('HomeController', [ '$scope', '$http', function ($scope, $http) {
      */
     $scope.getForecast = function () {
         var splitString = $scope.location.split(",");
-        var city = splitString[0];
-        var state = splitString[1];
-        $http.get('http://api.openweathermap.org/data/2.5/forecast/daily?q=' + city + ',' + state + '&units=imperial&cnt=5').success($scope.validate);
+        if (splitString[1]) {
+            var city = splitString[0];
+            var state = splitString[1];
+            $http.get('http://api.openweathermap.org/data/2.5/forecast/daily?q=' + city + ',' + state + '&units=imperial&cnt=5').success($scope.validate);
+        }
+        else {
+            $scope.alert.msg = 'Your input must be in the form of city,state.';
+            $scope.showAlert = true;
+        }
     }
 
     /*
