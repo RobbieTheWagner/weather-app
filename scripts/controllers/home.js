@@ -20,7 +20,7 @@ app.controller('HomeController', [ '$scope', '$http', function ($scope, $http) {
             setDays(res);
         }
         else {
-            $scope.alert.msg = 'You entered an invalid city or state. Please try again.';
+            $scope.alert.msg = 'You entered an invalid city. Please try again.';
             $scope.showAlert = true;
         }
     }
@@ -29,14 +29,19 @@ app.controller('HomeController', [ '$scope', '$http', function ($scope, $http) {
      Does an http get to grab the JSON weather data from openweathermap.
      */
     $scope.getForecast = function () {
-        var splitString = $scope.location.split(",");
-        if (splitString[1]) {
+        var location = $scope.location;
+        var re1 = '.*?,(\\s*)';
+        var states='((?:(?:AL)|(?:AK)|(?:AS)|(?:AZ)|(?:AR)|(?:CA)|(?:CO)|(?:CT)|(?:DE)|(?:DC)|(?:FM)|(?:FL)|(?:GA)|(?:GU)|(?:HI)|(?:ID)|(?:IL)|(?:IN)|(?:IA)|(?:KS)|(?:KY)|(?:LA)|(?:ME)|(?:MH)|(?:MD)|(?:MA)|(?:MI)|(?:MN)|(?:MS)|(?:MO)|(?:MT)|(?:NE)|(?:NV)|(?:NH)|(?:NJ)|(?:NM)|(?:NY)|(?:NC)|(?:ND)|(?:MP)|(?:OH)|(?:OK)|(?:OR)|(?:PW)|(?:PA)|(?:PR)|(?:RI)|(?:SC)|(?:SD)|(?:TN)|(?:TX)|(?:UT)|(?:VT)|(?:VI)|(?:VA)|(?:WA)|(?:WV)|(?:WI)|(?:WY)))(?![a-z])';
+        var regex = new RegExp(re1 + states,["i"]);
+        if(location.match(regex))
+        {
+        var splitString = location.split(",");
             var city = splitString[0];
             var state = splitString[1];
             $http.get('http://api.openweathermap.org/data/2.5/forecast/daily?q=' + city + ',' + state + '&units=imperial&cnt=5').success($scope.validate);
         }
         else {
-            $scope.alert.msg = 'Your input must be in the form of city,state.';
+            $scope.alert.msg = 'Your input must be in the form of city,XX and XX must be a valid two character state code.';
             $scope.showAlert = true;
         }
     }
